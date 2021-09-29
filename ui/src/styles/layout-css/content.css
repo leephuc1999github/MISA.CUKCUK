@@ -1,0 +1,33 @@
+.content{
+    background: #fff;
+    width: calc(100vw - 230px);
+}
+
+.content.expand{
+    background: #fff;
+    width: 100vw;
+}
+
+.content .info-site{
+    background: #ffffb4;
+    height: 42px;
+    width: 100%;
+    line-height: 42px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ffe18c;
+}
+
+.content .info-site .update-site{
+    cursor: pointer;
+}
+
+.content .info-site .update-site i{
+    color: #ffb835;
+    font-size: 16px;
+}
+
+
+.content .info-site .update-site a{
+    text-decoration: none;
+    padding-left: 7px;
+}

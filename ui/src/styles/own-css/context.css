@@ -1,0 +1,102 @@
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.MISAContext .searchbox {
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    width: calc(100% - 28px);
+    border-radius: 0;
+    height: 28px;
+    box-sizing: border-box;
+}
+
+.MISAContext .searchbox.string{
+    text-align: left;
+}
+
+.MISAContext .searchbox.number{
+    text-align: right;
+}
+
+.MISAContext .searchbox:focus {
+    border: 1px solid #0873b9;
+}
+
+.MISAContext .option-item {
+    text-align: left;
+    padding: 0 10px;
+    height: 25px;
+    align-items: center;
+    font-weight: 400;
+    color: #000;
+    white-space: nowrap;
+    background: #fff;
+    display: flex;
+}
+.MISAContext .option-item .active-icon{
+    margin-right: 5px;
+    height: 16px;
+    width: 16px;
+}
+
+.MISAContext .option-item.active .active-icon {
+    background: url("../../assets/table-circle-blue16.png");
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+}
+
+.MISAContext .option-item:hover {
+    background: #d6e8f6;
+    color: #000;
+}
+
+.MISAContext {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.MISAContext .group-control {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    background: #ededed;
+}
+
+.MISAContext .data {
+    position: absolute;
+    background: #fff !important;
+    width: 100%;
+    border: 1px solid #ccc;
+    width: fit-content;
+    z-index: 999;
+}
+
+.MISAContext .group-control input {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    height: 28px;
+    width: 100%;
+    background: #ededed;;
+    align-items: center;
+    color: #000;
+    border-radius: 0;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

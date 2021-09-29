@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Tahoma;
+    src: url("../assets/fonts/Tahoma Regular font.ttf");
+}
+@font-face {
+    font-family: Tahoma-0;
+    src: url("../assets/fonts/TAHOMA_0.TTF");
+}
+@font-face {
+    font-family: TahomaB0;
+    src: url("../assets/fonts/TAHOMAB0.TTF");
+}
+
+@font-face {
+    font-family: TahomaBD;
+    src: url("../assets/fonts/TAHOMABD.TTF");
+}
+
+@import "../styles/css/dx.light.css";
+@import "../styles/own-css/margin-padding.css";
+@import "../styles/own-css/width-height.css";
+@import "../styles/own-css/display.css";
+
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#app{
+    width: 100vw;
+    height: 100vh;
+}
+
+#app .container{
+    width: 100vw;
+    height: calc(100vh - 55px);
+}
+
+

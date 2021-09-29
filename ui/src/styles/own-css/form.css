@@ -1,0 +1,64 @@
+.dark-screen{
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.MISAForm{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.modal .header-site{
+    height: 28px;
+    background: #0072bc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.modal .header-site .close-icon{
+    background: url("../../assets/tool-sprites.png");
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.modal .content-site{
+    background: #fff;
+    height: 100%;
+    border: 5px solid #0072bc;
+    border-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.modal .content-site .footer-site{
+    margin-top: auto;
+    display: flex;
+}

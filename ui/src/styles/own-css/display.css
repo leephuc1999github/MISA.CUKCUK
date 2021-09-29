@@ -1,0 +1,28 @@
+/* ------------display block-------------- */
+/* ------------------end------------------ */
+
+
+/* ------------display flex--------------- */
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-items-c{
+    align-items: center;
+}
+
+.align-self-c{
+    align-items: center;
+}
+
+
+
+
+/* ----------------end-------------------- */
+

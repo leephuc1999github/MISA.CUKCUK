@@ -1,0 +1,44 @@
+.MISAInput{
+    width: 100%;
+    height: auto;
+}
+.MISAInput .box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+
+
+
+
+.MISAInput .box input{
+    height: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    outline: none;
+    padding: 0 5px;
+    border: none;
+    font-size: 13px;
+    font-family: Tahoma;
+}
+
+
+.MISAInput .box:focus-within{
+    border: 1px solid #0072bc !important;
+}
+
+
+.MISAInput .box.b-red{
+    border: 1px solid red;
+}
+
+.MISAInput .errors{
+    color: red !important;
+    padding-top: 5px;
+    display: block;
+}

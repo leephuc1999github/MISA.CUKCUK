@@ -1,0 +1,144 @@
+.background-table {
+    width: calc(100vw - 230px - 14px);
+    height: 100%;
+    display: block;
+    overflow-x: scroll;
+}
+
+.background-table.expand {
+    width: calc(100vw - 14px);
+    height: 100%;
+    display: block;
+    overflow-x: scroll;
+}
+
+.MISATable1 {
+    border-collapse: collapse;
+    min-width: 2000px;
+}
+
+.MISATable1 .tbody1 {
+    display: block;
+    overflow-y: scroll;
+}
+
+.MISATable1 .table1-data-body {
+    height: 625px;
+    overflow-y: scroll;
+}
+
+.MISATable1 .title::-webkit-scrollbar {
+    background: #ededed;
+    border-bottom: 1px solid #ccc;
+}
+
+.MISATable1 .tbody1 .tr1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.MISATable1 .table1-data-body .tr1 {
+    border-bottom: 1px solid #ccc;
+}
+
+.MISATable1 .table1-data-body .tr1:hover {
+    background: #d6e8f6 !important;
+}
+
+.MISATable1 .table1-data-body .tr1.active {
+    background: #c1ddf1 !important;
+}
+
+.MISATable1 .table1-data-body .tr1 .td1.hidden, .MISATable1 .title .tr1 .th1.hidden {
+    display: none;
+}
+
+.MISATable1 .title .thead {
+    background: #ededed;
+    min-height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.MISATable1 .title .thead .th1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.MISATable1 .tbody1 .tr1:nth-child(odd):not(.thead) {
+    background: #fafafa;
+}
+
+.MISATable1 .tbody1 .tr1:nth-child(even):not(.thead) {
+    background: #fff;
+}
+
+.MISATable1 .tbody1 .tr1 .td1 {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.MISATable1 .tbody1 .tr1 .td1 .txt {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.MISATable1 .title .thead .th1 .txt {
+    white-space: nowrap;
+    overflow: visible;
+    padding: 10px 0;
+}
+
+#money {
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: right;
+    padding: 0 5px;
+    box-sizing: border-box;
+    background: transparent;
+    height: 28px;
+    border-radius: 0;
+}
+
+#money:focus {
+    background: #fff;
+    border: 1px solid #0873b9;
+}
+
+
+.select-box-site {
+    margin-bottom: 5px !important;
+    background: #fff !important;
+}
+
+.select-box-site .group-control {
+    border: 1px solid #ccc !important;
+}
+
+.select-box-site .group-control input {
+    height: 26px !important;
+}
+
+.select-box-site .group-control .rotate-site {
+    background: url("../../assets/trigger.png") !important;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    margin-right: 5px;
+}
