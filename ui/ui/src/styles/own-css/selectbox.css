@@ -1,0 +1,161 @@
+.MISASelectBoxGroup {
+    box-sizing: border-box;
+    cursor: pointer;
+    /* position: relative; */
+    width: 100%;
+}
+
+.MISASelectBoxGroup .group-control {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    border: 1px solid #acacac;
+}
+
+.MISASelectBoxGroup .group-control:focus-within{
+    border: 1px solid #0072bc;
+}
+
+
+.MISASelectBoxGroup .group-control.b-red {
+    border: 1px solid red;
+}
+
+.MISASelectBoxGroup .group-control .rotate-site {
+    background: url("../../assets/trigger\ \(1\).png");
+    height: 22px;
+    width: 22px;
+    margin: 0 5px;
+}
+
+.MISASelectBoxGroup .button-control {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.MISASelectBoxGroup .button-control .icon {
+    background: url("../../assets/IconSprite.png");
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+
+.MISASelectBoxGroup .data {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #babec5;
+    z-index: 999;
+    max-height: 200px;
+    overflow-y: auto;
+    left: 0;
+    background: #fff;
+    top:33px;
+}
+
+.MISASelectBoxGroup .group-control .box {
+    display: flex;
+}
+.MISASelectBoxGroup .group-control input:focus{
+    outline: none;
+}
+
+
+.MISASelectBoxGroup .group-control input {
+    margin: 0;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    padding: 0 5px;
+    height: 30px;
+    width: 100%;
+    background: #fff;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Tahoma;
+    color: #000;
+}
+
+.MISASelectBoxGroup .data .option-item {
+    text-align: left;
+    padding: 0 5px;
+    height: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Tahoma;
+    color: #000;
+}
+
+.MISASelectBoxGroup .data .option-item.active {
+    background: #c1ddf1;
+    color: #000;
+}
+
+.MISASelectBoxGroup .data .option-item:hover {
+    background: #d6e8f6;
+    color: #000;
+}
+
+.MISASelectBoxGroup .errors{
+    color: red;
+    padding-top: 5px;
+    display: block;
+}
+
+
+
+/* Dropdown data table */
+.MISASelectBoxGroup .data table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+.MISASelectBoxGroup .data table .data-body{
+    width: 100%;
+    display: block;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.MISASelectBoxGroup .data table .data-body tr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.MISASelectBoxGroup .data table .data-body tr.active{
+    background: #c1ddf1;
+}
+
+.MISASelectBoxGroup .data table .data-body tr:hover{
+    background: #d6e8f6;
+}
+
+.MISASelectBoxGroup .data table .data-body .thead{
+    background: #ededed !important;
+    width: 100%;
+    display: flex;
+}
+
+.MISASelectBoxGroup .data table .data-body .thead td{
+    font-weight: bold;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MISASelectBoxGroup .data table .data-body tr td{
+    width: 50%;
+    height: 100%;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+}

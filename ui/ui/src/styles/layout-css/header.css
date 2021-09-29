@@ -1,0 +1,114 @@
+.header {
+    height: 55px;
+    background: #0973b9;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.header .logo-site {
+    width: 230px;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-style: solid;
+    border-color: #016087;
+}
+
+.header .config-site {
+    width: calc(100% - 230px);
+}
+
+.header .logo-site .toggle-icon {
+    height: 55px;
+    width: 45px;
+    background: url("../../assets/icon-left-header.png");
+    background-repeat: no-repeat;
+    background-position: 16px 17px;
+    cursor: pointer;
+}
+
+.header .logo-site .cukcuk-logo {
+    background: url("../../assets/logo-text.png");
+    height: 55px;
+    width: calc(100% - 45px);
+    background-repeat: no-repeat;
+    background-position: 0 17px;
+    cursor: pointer;
+}
+
+.noti-icon{
+    font-size: 20px;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+
+.phone-icon{
+    background: url("../../assets/ic_support.svg");
+    width: 65px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.user-site{
+    display: flex;
+    color: #fff;
+    margin-left: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user-site .user-icon{
+    height: 28px;
+    width: 28px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+
+
+.branch-sb,
+.language-sb{
+    position: relative;
+}
+
+
+
+.branch-sb .group-control,
+.language-sb .group-control{
+    height: 30px;
+    border: 1px solid #005082;
+    background: #005082 !important;
+}
+
+.branch-sb .data,
+.language-sb .data{
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+}
+
+.branch-sb input,
+.language-sb input{
+    background: #005082 !important;
+    color: #fff !important;
+}
+
+
+
+.filter-icon {
+    background: url("../../assets/filter_1.png") !important;
+    height: 16px;
+    width: 16px;
+    background-position: -5px -5px !important;
+}

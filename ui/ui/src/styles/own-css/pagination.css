@@ -1,0 +1,109 @@
+.MISAPagination{
+    height: 38px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.MISAPagination .divide{
+    height: 14px;
+    width: 1px;
+    background: #cccccc;
+    align-self: center;
+}
+
+.MISAPagination .paging-site{
+    display: flex;
+    align-items: center;
+}
+.first-page-icon{
+    background: url("../../assets/page-first.png");
+    height: 16px;
+    width: 16px;
+    margin-right: 17px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.prev-page-icon{
+    background: url("../../assets/page-prev.png");
+    height: 16px;
+    width: 16px;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.last-page-icon{
+    background: url("../../assets/page-last.png");
+    height: 16px;
+    width: 16px;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.next-page-icon{
+    background: url("../../assets/page-next.png");
+    height: 16px;
+    width: 16px;
+    margin-right: 17px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.refresh-icon{
+    background: url("../../assets/refresh.png");
+    height: 16px;
+    width: 16px;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.MISAPagination .paging-site .current-page-site{
+    padding: 0 10px;
+}
+.MISAPagination .paging-site .current-page-site input{
+    outline: none;
+    border: 1px  solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+    width: 40px;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+.MISAPagination .total-site{
+    padding-right: 8px;
+}
+
+.MISAPagination .paging-site .size-on-page-site{
+    margin-left: 40px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.pageSize-site{
+    height: 100%;
+}
+
+
+.pageSize-site .data{
+    top: auto !important;
+    bottom: 40px !important;
+    left: auto !important;
+}
+
+
+.pageSize-site .group-control .rotate-site{
+    background: url("../../assets/trigger.png");
+    width: 22px;
+    height: 22px;
+    margin: 0 3px;
+}
+.pageSize-site .group-control input{
+    width: 35px;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0 8px;
+    height: 100%;
+    cursor: pointer;
+}

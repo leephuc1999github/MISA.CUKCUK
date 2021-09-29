@@ -1,0 +1,116 @@
+.inventory-item {
+    padding: 0 7px 7px 7px;
+    width: 100%;
+    height: calc(100vh - 55px - 42px);
+    box-sizing: border-box;
+    /* background: red; */
+}
+
+.inventory-item .title-site {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.inventory-item .table-site {
+    background: #fff;
+    height: 100%;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.inventory-item .table-site .feature-site {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#fff, #e4e5e7);
+    border-bottom: 1px solid #ccc;
+}
+
+.inventory-item .table-site .data-site {
+    width: 100%;
+    height: calc(100% - 68px);
+    /* background: red; */
+}
+
+.inventory-item .table-site .pagination-site {
+    height: 38px;
+    border-top: 1px solid #d9d9d9;
+    margin-top: auto;
+}
+
+.inventory-item .title-site .title {
+    font-size: 22px;
+}
+
+
+
+
+
+#edit-btn button .icon {
+    background: url("../../assets/Edit16.png");
+    height: 16px;
+    width: 16px;
+}
+
+
+
+
+#add-btn, 
+#edit-btn, 
+#clone-btn, 
+#delete-btn, 
+#load-btn {
+    border: 1px solid transparent;
+    background: none;
+    box-sizing: border-box;
+}
+
+
+
+#add-btn:hover, 
+#edit-btn:hover, 
+#clone-btn:hover, 
+#delete-btn:hover, 
+#load-btn:hover {
+    background: #fff;
+    border: 1px solid #0072bc;
+}
+
+
+.add-btn {
+    background: url("../../assets/IconSprite.png");
+    height: 16px;
+    width: 16px;
+    background-position: 0 -2648px !important;
+}
+
+.feedback-btn {
+    background: url("../../assets/viewEmail.png") !important;
+    height: 16px;
+    width: 16px;
+}
+
+.clone-btn{
+    background: url("../../assets/IconSprite.png");
+    height: 16px;
+    width: 16px;
+    background-position: 0 -2096px !important;
+}
+
+.delete-btn{
+    background: url("../../assets/IconSprite.png");
+    background-position: 0 -2681px !important;
+    height: 16px;
+    width: 16px;
+}
+
+.load-btn{
+    background: url("../../assets/IconSprite.png");
+    background-position: 0 -2585px !important;
+    height: 16px;
+    width: 16px;
+}
